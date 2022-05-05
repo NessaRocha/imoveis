@@ -22,11 +22,34 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg py-4 px-2" id="navbar">
-            <div class="container">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                        <h5 class="text-white h4">Collapsed content</h5>
+                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
                 <img src="{{ storage('images/navbar.png')}}" alt="Seu Imóvel">
                 <a href="{{url('/')}}" class="navbar-brand ">WEB IMÓVEIS </a>
                 <div id="navbar-items">
-                    <div></div>
+                    <p><b>Nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}"
+                                    alt="Insta"></a><a href="#"><img src="{{ storage('images/twiter2.png')}}"
+                                    alt="Twiter"><a href="#"><img src="{{ storage('images/face2.png')}}" alt="Face"></b>
+                    </p>
                     <form class="d-flex" id="search-form">
                         <input type="search" class="form-control me-2" placeholder="Busque o seu Imóvel"
                             aria-label="Search">
@@ -77,9 +100,6 @@
                 </div>
             </div>
         </div>
-        <p><b>Acompanhe nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}" alt="Insta"></a><a
-                    href="#"><img src="{{ storage('images/twiter2.png')}}" alt="Twiter"><a href="#"><img
-                            src="{{ storage('images/face2.png')}}" alt="Face"></b></p>
     </footer>
     <script src="js/script.js"></script>
 

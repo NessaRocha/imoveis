@@ -5,19 +5,24 @@
     font-family: sans-serif;
 }
 a{
-    color:rgb(13, 13, 13);
+    color:rgb(29, 28, 28);
     text-decoration: none;
     font-family:sans-serif ;
 }
+p{
+    color: #ffffff96;
+    font-family:sans-serif ;
+
+}
 
 body{
-    background-color:#ffffff;
+    background-color:#ffffff96;
     color: rgb(14, 14, 14);
     text-align: center;   
 }
 header{
     width: 100%;
-    background-color: rgba(37, 37, 38, 0.913);
+    background-color: rgba(11, 11, 11, 0.896);
     display:block;
 }
 form{
@@ -47,16 +52,17 @@ form{
 .navbar-brand{
     font-weight: 700;
     width:100%;
-    text-align: center;
+    text-align:left;
 }
 @media(min-width:768px){
     .navbar-brand{
     text-align: left; 
 }
 }
-#navbar-items{
-    justify-content: space-between;
+.navbar-items{
+    justify-content: center;
     align-items: center;
+    
     }
 @media(min-width:768px){
     .navbar-items{
@@ -67,7 +73,7 @@ form{
 #search-form{
     min-width:100%;
     margin:12em 0;
-    border:2px solid #2525255a;
+    border:2px solid #4d4c4c47;
     border-radius: 5px;
     padding: 2px 2px;
     
@@ -92,7 +98,7 @@ form{
 #bottom-navbar-container{
     font-weight: 700;
     color: #ffff;
-    background-color: rgba(37, 37, 38, 0.913);
+    background-color: rgba(37, 37, 38, 0.404);
     
   }
 #bottom-navbar-container a{
@@ -109,3 +115,4 @@ form{
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
+
