@@ -20,7 +20,7 @@
 }
 
 .anuncio{
-    width: 15rem; border: none;
+    width: 15rem; border: 1px;
 }
 .anuncio img{
     width: 250px;

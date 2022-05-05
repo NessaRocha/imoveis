@@ -8,32 +8,52 @@
             <div class="card-img-top">
                 <img class=" img-fluid rounded" src="{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
             </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item "></li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                <a href="#" class="btn btn-secondary">Saiba Mais</a>
             </div>
         </div>
         <div class="card anuncio">
             <div class="card-img-top">
                 <img class="img-fluid rounded" src="{{ storage('images/cdc2.jpg')}}" alt="casadecampo1">
             </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item "></li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                <a href="#" class="btn btn-secondary">Saiba Mais</a>
             </div>
         </div>
         <div class="card anuncio">
             <div class="card-img-top">
                 <img class="img-fluid rounded" src="{{ storage('images/cdc3.jpg')}}" alt="casadecampo2">
             </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item "></li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                <a href="#" class="btn btn-secondary">Saiba Mais</a>
             </div>
         </div>
         <div class="card anuncio">
             <div class="card-img-top">
                 <img class="img-fluid rounded" src="{{ storage('images/cdc4.jpg')}}" alt="casadecampo3">
             </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item "></li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                <a href="#" class="btn btn-secondary">Saiba Mais</a>
             </div>
         </div>
         <div class="container" id="mini-banners1">
@@ -43,61 +63,111 @@
                     <div class="card-img-top">
                         <img class="img-fluid rounded" src="{{ storage('images/casa_de_praia.jpg')}}" alt="casadepraia">
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item "></li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        <a href="#" class="btn btn-secondary">Saiba Mais</a>
                     </div>
                 </div>
                 <div class="card anuncio">
                     <div class="card-img-top">
                         <img class="img-fluid rounded" src="{{ storage('images/cdp2.jpg')}}" alt="casadepraia">
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item "></li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        <a href="#" class="btn btn-secondary">Saiba Mais</a>
                     </div>
                 </div>
                 <div class="card anuncio">
                     <div class="card-img-top">
                         <img class="img-fluid rounded" src="{{ storage('images/cdp3.jpg')}}" alt="casadepraia">
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item "></li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        <a href="#" class="btn btn-secondary">Saiba Mais</a>
                     </div>
                 </div>
                 <div class="card anuncio">
-                    <img class="img-fluid rounded" src="{{ storage('images/cdp4.jpg')}}" alt="casadepraia">
+                    <div class="card-img-top">
+                        <img class="img-fluid rounded" src="{{ storage('images/cdp4.jpg')}}" alt="casadepraia">
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item "></li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        <a href="#" class="btn btn-secondary">Saiba Mais</a>
                     </div>
                 </div>
                 <div class="container" id="mini-banners2">
                     <div class="row justify-content-around pt-5">
                         <h2 class="primery-bg-color">Casa na Cidade</h2>
                         <div class="card anuncio">
-                            <img class="img-fluid rounded" src="{{ storage('images/casa_de_cidade.jpg')}}"
-                                alt="casadecidade">
+                            <div class="card-img-top">
+                                <img class="img-fluid rounded" src="{{ storage('images/casa_de_cidade.jpg')}}"
+                                    alt="casadecidade">
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item "></li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
                             <div class="card-body">
-                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                <a href="#" class="btn btn-secondary">Saiba Mais</a>
                             </div>
                         </div>
                         <div class="card anuncio">
-                            <img class="img-fluid rounded" src="{{ storage('images/casadecidad2.jpg')}}"
-                                alt="casadecidade">
+                            <div class="card-img-top">
+                                <img class="img-fluid rounded" src="{{ storage('images/casadecidad2.jpg')}}"
+                                    alt="casadecidade">
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item "></li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
                             <div class="card-body">
-                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                <a href="#" class="btn btn-secondary">Saiba Mais</a>
                             </div>
                         </div>
                         <div class="card anuncio">
-                            <img class="img-fluid rounded" src="{{ storage('images/casadecidad3.jpg')}}"
-                                alt="casadecidade">
+                            <div class="card-img-top">
+                                <img class="img-fluid rounded" src="{{ storage('images/casadecidad3.jpg')}}"
+                                    alt="casadecidade">
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item "></li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
                             <div class="card-body">
-                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                <a href="#" class="btn btn-secondary">Saiba Mais</a>
                             </div>
                         </div>
                         <div class="card anuncio">
-                            <img class="img-fluid rounded" src="{{ storage('images/casadecid4.jpg')}}"
-                                alt="casadecidade">
+                            <div class="card-img-top">
+                                <img class="img-fluid rounded" src="{{ storage('images/casadecid4.jpg')}}"
+                                    alt="casadecidade">
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item "></li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
                             <div class="card-body">
-                                <a href="#" class="btn btn-primary">>Saiba Mais</a>
+                                <a href="#" class="btn btn-secondary">>Saiba Mais</a>
                             </div>
                         </div>
                         <br>
