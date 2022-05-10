@@ -65,7 +65,7 @@
                         <a href="{{url('/somos')}}" class="nav-link">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Venda seu Imóvel</a>
+                        <a href="{{url('/venda')}}" class="nav-link">Venda seu Imóvel</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{url('/compre-seu-imovel')}}" class="nav-link">Compre seu Imóvel</a>

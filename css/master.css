@@ -10,7 +10,7 @@ a{
     font-family:sans-serif ;
 }
 p{
-    color: #ffffff96;
+    color: #401818;
     font-family:sans-serif ;
 
 }
@@ -115,4 +115,6 @@ form{
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
-
+.contact-tile{
+    color: #401818;
+}
