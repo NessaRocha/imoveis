@@ -16,13 +16,13 @@ p{
 }
 
 body{
-    background-color:#ffffff96;
+    background-color:#942d2d96;
     color: rgb(14, 14, 14);
     text-align: center;   
 }
 header{
     width: 100%;
-    background-color: rgba(11, 11, 11, 0.896);
+    background-color: rgba(227, 82, 82, 0.896);
     display:block;
 }
 form{
@@ -30,7 +30,7 @@ form{
     position: relative;
 }
 .form-control{
-    min-width:300px;
+    min-width:400px;
 }
 
 .primery-bg-color{
