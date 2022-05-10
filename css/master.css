@@ -10,19 +10,19 @@ a{
     font-family:sans-serif ;
 }
 p{
-    color: #401818;
+    color: rgb(39, 34, 34);
     font-family:sans-serif ;
 
 }
 
 body{
-    background-color:#942d2d96;
+    background-color:#f8f8f896;
     color: rgb(14, 14, 14);
     text-align: center;   
 }
 header{
     width: 100%;
-    background-color: rgba(227, 82, 82, 0.896);
+    background-color: rgba(55, 14, 14, 0.896);
     display:block;
 }
 form{
