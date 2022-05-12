@@ -22,7 +22,7 @@ body{
 }
 header{
     width: 100%;
-    background-color: rgba(55, 14, 14, 0.896);
+    background-color: #bbbbbbef;
     display:block;
 }
 form{
@@ -52,7 +52,8 @@ form{
 .navbar-brand{
     font-weight: 700;
     width:100%;
-    text-align:left;
+    text-align:center;
+  
 }
 @media(min-width:768px){
     .navbar-brand{
@@ -67,13 +68,12 @@ form{
 @media(min-width:768px){
     .navbar-items{
     min-width: 100%;
-    display: flex; 
     }
 }
 #search-form{
     min-width:100%;
     margin:12em 0;
-    border:2px solid #4d4c4c47;
+    border:2px solid #a39696cf;
     border-radius: 5px;
     padding: 2px 2px;
     

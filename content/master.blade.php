@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="{{ storage('images/nave.ico')}}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ storage('images/favicon.ico')}}" type="image/x-icon" />
     <link ref="stylesheet" href="{{ storage('/css/reset.css') }}">
     <link rel="stylesheet" href="{{ storage('/css/index.css') }}">
     <link rel="stylesheet" href="{{ storage('/css/master.css') }}">
@@ -34,7 +34,7 @@
                         <span class="text-muted">Toggleable via the navbar brand.</span>
                     </div>
                 </div>
-                <nav class="navbar navbar-dark bg-dark">
+                <nav class="navbar navbar-dark">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
@@ -43,12 +43,13 @@
                         </button>
                     </div>
                 </nav>
-                <img src="{{ storage('images/navbar.png')}}" alt="Seu Imóvel">
-                <a href="{{url('/')}}" class="navbar-brand ">WEB IMÓVEIS </a>
+                <a href="{{url('/')}}" class="navbar-brand"><img src="{{ storage('images/webimoveis.png')}}"
+                        rounded mx-auto d-blockalt="Seu Imóvel"> </a>
                 <div id="navbar-items">
-                    <p><b>Nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta2.png')}}"
-                                    alt="Insta"></a><a href="#"><img src="{{ storage('images/twiter2.png')}}"
-                                    alt="Twiter"><a href="#"><img src="{{ storage('images/face2.png')}}" alt="Face"></b>
+                    <p><b>Nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta.png')}}"
+                                    alt="Insta"></a><a href="#"><img src="{{ storage('images/twitter.png')}}"
+                                    alt="Twiter"><a href="#"><img src="{{ storage('images/faceb2.png')}}"
+                                        alt="Face"></b>
                     </p>
                     <form class="d-flex" id="search-form">
                         <input type="search" class="form-control me-2" placeholder="Busque o seu Imóvel"

@@ -3,7 +3,7 @@
 @section('content')
 <h4>Buscando as melhores ofertas de Imóveis?</h4>
 <p>Contamos com uma equipe especializada em negócios Imobiliários</p>
-<form action="#" method="POST">
+<x-lumino-form>
     <div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"><br>Nome<br></label>
@@ -27,5 +27,5 @@
             <button type="submit">Enviar</button>
         </div>
     </div>
-</form>
+</x-lumino-form>
 @stop
