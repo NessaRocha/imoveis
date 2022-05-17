@@ -10,6 +10,7 @@
     display:flex;
     flex-direction: column;
     justify-content:space-between;
+    
 }
 
 @media(min-width:768px){
@@ -27,6 +28,10 @@
     height: 200px;
 }
 p{
-    color:#401818;
-    
+    margin-top: 20px;
+    height: auto;
+    background-color:#f8f8f896;
 }
+h2{
+    background-color:#f8f8f896;
+   }

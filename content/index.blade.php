@@ -9,9 +9,9 @@
                 <img class=" img-fluid rounded" src="{{ storage('images/casa_de_campo.jpg')}}" alt="casadecampo">
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item "></li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item ">Localização</li>
+                <li class="list-group-item">Comodos</li>
+                <li class="list-group-item">Garagem</li>
             </ul>
             <div class="card-body">
                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -22,9 +22,9 @@
                 <img class="img-fluid rounded" src="{{ storage('images/cdc2.jpg')}}" alt="casadecampo1">
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item "></li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item ">Localização</li>
+                <li class="list-group-item">Comodos</li>
+                <li class="list-group-item">Garagem</li>
             </ul>
             <div class="card-body">
                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -35,9 +35,9 @@
                 <img class="img-fluid rounded" src="{{ storage('images/cdc3.jpg')}}" alt="casadecampo2">
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item "></li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item ">Localização</li>
+                <li class="list-group-item">Comodos</li>
+                <li class="list-group-item">Garagem</li>
             </ul>
             <div class="card-body">
                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -48,9 +48,9 @@
                 <img class="img-fluid rounded" src="{{ storage('images/cdc4.jpg')}}" alt="casadecampo3">
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item "></li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item ">Localização</li>
+                <li class="list-group-item">Comodos</li>
+                <li class="list-group-item">Garagem</li>
             </ul>
             <div class="card-body">
                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -64,9 +64,9 @@
                         <img class="img-fluid rounded" src="{{ storage('images/casa_de_praia.jpg')}}" alt="casadepraia">
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item "></li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item ">Localização</li>
+                        <li class="list-group-item">Comodos</li>
+                        <li class="list-group-item">Garagem</li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -77,9 +77,9 @@
                         <img class="img-fluid rounded" src="{{ storage('images/cdp2.jpg')}}" alt="casadepraia">
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item "></li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item ">Localização</li>
+                        <li class="list-group-item">Comodos</li>
+                        <li class="list-group-item">Garagem</li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -90,9 +90,9 @@
                         <img class="img-fluid rounded" src="{{ storage('images/cdp3.jpg')}}" alt="casadepraia">
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item "></li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item ">Localização</li>
+                        <li class="list-group-item">Comodos</li>
+                        <li class="list-group-item">Garagem</li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -103,9 +103,9 @@
                         <img class="img-fluid rounded" src="{{ storage('images/cdp4.jpg')}}" alt="casadepraia">
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item "></li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item ">Localização</li>
+                        <li class="list-group-item">Comodos</li>
+                        <li class="list-group-item">Garagem</li>
                     </ul>
                     <div class="card-body">
                         <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -120,9 +120,9 @@
                                     alt="casadecidade">
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item "></li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item ">Localização</li>
+                                <li class="list-group-item">Comodos</li>
+                                <li class="list-group-item">Garagem</li>
                             </ul>
                             <div class="card-body">
                                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -134,9 +134,9 @@
                                     alt="casadecidade">
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item "></li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item ">Localização</li>
+                                <li class="list-group-item">Comodos</li>
+                                <li class="list-group-item">Garagem</li>
                             </ul>
                             <div class="card-body">
                                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -148,9 +148,9 @@
                                     alt="casadecidade">
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item "></li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item ">Localização</li>
+                                <li class="list-group-item">Comodos</li>
+                                <li class="list-group-item">Garagem</li>
                             </ul>
                             <div class="card-body">
                                 <a href="#" class="btn btn-secondary">Saiba Mais</a>
@@ -162,25 +162,27 @@
                                     alt="casadecidade">
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item "></li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item ">Localização</li>
+                                <li class="list-group-item">Comodos</li>
+                                <li class="list-group-item">Garagem</li>
                             </ul>
                             <div class="card-body">
                                 <a href="#" class="btn btn-secondary">>Saiba Mais</a>
                             </div>
                         </div>
-                        <br>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
         <p>Como foi pensado a Web Imóveis, em um unico lugar,
             você tem as opções de imóveis anunciados em diversas
             plataformas de venda, assim como o seu anuncio
             também.</p>
         <p>Um lugar para sua venda e sua compra de Imóveis na
             web</p>
-        <p>Viva a experiencia de conhecer as opçções de compra e
+        <p>Viva a experiencia de conhecer as opções de compra e
             venda em um unico portal</p>
         @stop

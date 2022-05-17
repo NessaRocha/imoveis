@@ -43,24 +43,19 @@
                         </button>
                     </div>
                 </nav>
-                <a href="{{url('/')}}" class="navbar-brand"><img src="{{ storage('images/webimoveis.png')}}"
-                        rounded mx-auto d-blockalt="Seu Imóvel"> </a>
+                <a href="{{url('/')}}" class="navbar-brand"><img src="{{ storage('images/webimoveis.png')}}" rounded
+                        mx-auto d-blockalt="Seu Imóvel"> </a>
                 <div id="navbar-items">
-                    <p><b>Nossas Redes Sociais <a href="#"><img src="{{ storage('images/insta.png')}}"
-                                    alt="Insta"></a><a href="#"><img src="{{ storage('images/twitter.png')}}"
-                                    alt="Twiter"><a href="#"><img src="{{ storage('images/faceb2.png')}}"
-                                        alt="Face"></b>
-                    </p>
-                    <form class="d-flex" id="search-form">
-                        <input type="search" class="form-control me-2" placeholder="Busque o seu Imóvel"
-                            aria-label="Search">
-                        <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
-                    </form>
+                    <h4><strong>Nossas Redes Sociais</strong></h4>
+                    <a href="https://www.instagram.com/"><img src="{{ storage('images/insta.png')}}" alt="Insta"></a><a
+                        href="https://twitter.com/"><img src="{{ storage('images/twitter.png')}}" alt="Twiter"><a
+                            href="https://www.facebook.com/"><img src="{{ storage('images/faceb2.png')}}"
+                                alt="Face"></b>
                 </div>
             </div>
         </nav>
         <nav class="navbar navbar-expand-lg prymary-bg-color p-2" id="bottom-navbar-container">
-            <div class="container">
+            <div class="container-s">
                 <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
                     <li class="nav-item">
                         <a href="{{url('/somos')}}" class="nav-link">Quem somos</a>
@@ -78,32 +73,85 @@
             </div>
         </nav>
     </header>
-    <!--Segundo nav-->
+    <div class="company-info-container">
+        <div class="company-info-backgound"></div>
+        <div class="company-info-titlebox">
+            <h2><strong>Aqui você encontra as melhores opções de Imóveis</strong></h2>
+            <p>Nossa plataforma completa para vendas e compras de imóveis, é aqui onde você encontra as melhores
+                opções e ofertas imobiliárias</p>
+        </div>
+    </div>
+    </div>
+    <div class="pesquisaimob">
+        <div class="row">
+            <div class="imovel" id="cidade">
+            <input type="text" class="form-imoveis" placeholder="Busque por cidade">
+            <div class="imovel" id="bairro">
+            <input type="text" class="form-imoveis" placeholder="Busque por bairro">
+                    <div class="imovel" id=valor>
+                    <input type="text" class="form-imoveis" placeholder="Busque por valor">
+                        <div class="imovel" id="quartos">
+                        <input type="text" class="form-imoveis" placeholder="Busque por n° de quartos">
+
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <br><br><br><br>
 
 
     @yield('content')
-    <footer>
-        <div id="contact-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
-                    <div class="col-md-4 contact-box">
-                        <p><span class="contact-tile">Ligue para:</span> (XX) XXXXX-XXXX</p>
-                        <p><span class="contact-tile">Horários:</span> 08:00 - 19:00</p>
-                    </div>
-                    <div class="col-md-4 contact-box">
-                        <p><span class="contact-tile">Envie um e-mail:</span> contato@xxxxx.com</p>
-                    </div>
-                    <div class="col-md-4 contact-box">
-                        <p><span class="contact-tile">Venha nos visitar:</span> Rua xxxxx, nº xxx</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="js/script.js"></script>
 
+    <script src="js/script.js"></script>
+    <footer id="footer">
+        <div class="container-fluid" id="footer-links-container">
+            <div class="row">
+                <div class="col-12 col-md-4 footer-column">
+                    <h3>Sobre Web Imóveis</h3>
+                    <ul class="list">
+                        <li class="mb-2"><a href="#" class="primary-color">Sobre Nós</a></li>
+                        <li class="mb-2"><a href="#" class="primary-color">Nossa História</a></li>
+                        <li class="mb-2"><a href="#" class="primary-color">Artigos</a></li>
+                        <li class="mb-2"><a href="#" class="primary-color">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 footer-column" id="footer-center">
+                    <h3>Nossas Redes Sociais</h3>
+                    <ul class="list">
+                        <li class="mb-2"><a href="#" class="primary-color">Instagram <i
+                                    class="fa-brands fa-instagram-square"></i></a></li>
+                        <li class="mb-2"><a href="#" class="primary-color">Facebook <i
+                                    class="fa-brands fa-facebook-square"></i></a></li>
+                        <li class="mb-2"><a href="#" class="primary-color">Twitter <i
+                                    class="fa-brands fa-twitter-square"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 footer-column">
+                    <h3>Perguntas Frequentes</h3>
+                    <ul class="list">
+                        <li class="mb-2"><a href="#" class="primary-color">Politica de Privacidade</a></li>
+                        <li class="mb-2"><a href="#" class="primary-color">Termo de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="container-fluid" id="newsletter-container">
+                    <div class="col-12">
+                        <div class="row">
+                            <p class="secondary-color">Se inscreva na nossa Newsletter:</p>
+                            <form class="d-flex" id="news-form">
+                                <i class=" 
+          <i class=" fa-solid fa-envelope"></i>
+                                <input type="email" class="form-control me-2" placeholder="Insira seu melhor e-mail">
+                                <button class="btn secondary-bg-color" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="container" id="copy-container">
+                        <p>Todos os direitos reservados @2022<span class="primary-color"> Web Imóveis </span></p>
+                    </div>
+    </footer>
 
 </body>
 
