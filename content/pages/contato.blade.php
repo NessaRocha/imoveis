@@ -3,15 +3,15 @@
 @section('content')
 <h4>Buscando as melhores ofertas de Imóveis?</h4>
 <p>Contamos com uma equipe especializada em negócios Imobiliários</p>
-<x-lumino-form>
+<x-form id-name='contato' channels='promocao'>
     <div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"><br>Nome<br></label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo" name="name">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"><br>Email<br></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu melhor e-mail">
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu melhor e-mail">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"><br>Telefone<br></label>
@@ -27,5 +27,5 @@
             <button type="submit">Enviar</button>
         </div>
     </div>
-</x-lumino-form>
+</x-form>
 @stop
